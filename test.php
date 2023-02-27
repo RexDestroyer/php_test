@@ -1,5 +1,10 @@
 <?php
 
+//$check_leave = 0;
+//$check_auto_dock = 0;
+//$check_end = 0;
+
+
 if(isset($_POST['auto-leave_community'])){
   $check1 = intval($_POST['auto-leave_community']);
 } else {
